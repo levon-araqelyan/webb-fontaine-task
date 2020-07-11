@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/webb-fontaine-task/static/css/main.e56e3fe4.chunk.css",
-    "main.js": "/webb-fontaine-task/static/js/main.8699134f.chunk.js",
-    "main.js.map": "/webb-fontaine-task/static/js/main.8699134f.chunk.js.map",
+    "main.js": "/webb-fontaine-task/static/js/main.269842fc.chunk.js",
+    "main.js.map": "/webb-fontaine-task/static/js/main.269842fc.chunk.js.map",
     "runtime-main.js": "/webb-fontaine-task/static/js/runtime-main.85589926.js",
     "runtime-main.js.map": "/webb-fontaine-task/static/js/runtime-main.85589926.js.map",
     "static/js/2.08e6c5ce.chunk.js": "/webb-fontaine-task/static/js/2.08e6c5ce.chunk.js",
     "static/js/2.08e6c5ce.chunk.js.map": "/webb-fontaine-task/static/js/2.08e6c5ce.chunk.js.map",
     "index.html": "/webb-fontaine-task/index.html",
-    "precache-manifest.2d711fedc737f973b489ad9118230666.js": "/webb-fontaine-task/precache-manifest.2d711fedc737f973b489ad9118230666.js",
+    "precache-manifest.33d0fb6cefbe5586665ca4a12b7f6a67.js": "/webb-fontaine-task/precache-manifest.33d0fb6cefbe5586665ca4a12b7f6a67.js",
     "service-worker.js": "/webb-fontaine-task/service-worker.js",
     "static/css/main.e56e3fe4.chunk.css.map": "/webb-fontaine-task/static/css/main.e56e3fe4.chunk.css.map",
     "static/js/2.08e6c5ce.chunk.js.LICENSE.txt": "/webb-fontaine-task/static/js/2.08e6c5ce.chunk.js.LICENSE.txt",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.85589926.js",
     "static/js/2.08e6c5ce.chunk.js",
     "static/css/main.e56e3fe4.chunk.css",
-    "static/js/main.8699134f.chunk.js"
+    "static/js/main.269842fc.chunk.js"
   ]
 }
