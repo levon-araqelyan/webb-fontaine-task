@@ -13,8 +13,8 @@ const Header = () => {
     };
     return (
         <div className={s.header}>
-            <img src={logo} onClick={() => history.push("/")} title="Home" alt={"#"}/>
-            <Link onClick={handleLogOutClick} to="/login">
+            <img src={logo} onClick={() => history.push("/usersList")} title="Home" alt={"#"}/>
+            <Link onClick={handleLogOutClick} to="/">
                 Logout
             </Link>
         </div>

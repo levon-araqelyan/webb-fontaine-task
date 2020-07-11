@@ -6,7 +6,7 @@ export const WithAuthRedirect = ({children})=>{
     const {role} = useContext(Context);
 
     if (!role) {
-        return <Redirect to="/login" />
+        return <Redirect to="/" />
     }
 
     return children

@@ -14,17 +14,17 @@ const Login = () => {
     const onSubmit = () => {
         if (loginValue === "admin" && passwordValue === "1111") {
             removeRole("admin");
-            history.push("/")
+            history.push("/usersList")
         }
         if (loginValue === "user" && passwordValue === "0000") {
             removeRole("user");
-            history.push("/")
+            history.push("/usersList")
         }
     };
 
     useEffect(() => {
         if (role && loadLocalStorageState("role")) {
-            history.push("/")
+            history.push("/usersList")
         }
     }, []);
 

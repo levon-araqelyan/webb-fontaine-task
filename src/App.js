@@ -29,9 +29,9 @@ function App() {
             <Context.Provider value={{role, removeRole}}>
                 <Router>
                     <div className="App">
-                        <Route exact path="/" component={UsersList}/>
+                        <Route exact path="/usersList" component={UsersList}/>
                         <Route path="/settings" component={Settings}/>
-                        <Route path="/login" component={Login}/>
+                        <Route path="/" component={Login}/>
                     </div>
                 </Router>
             </Context.Provider>
