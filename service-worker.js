@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/webb-fontaine-task/precache-manifest.33d0fb6cefbe5586665ca4a12b7f6a67.js"
+  "/webb-fontaine-task/precache-manifest.0d358aac30d0586209cc49024d3bd01d.js"
 );
 
 self.addEventListener('message', (event) => {
