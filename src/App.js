@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './App.scss';
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {BrowserRouter as Router, Route, Switch} from "react-router-dom";
 import UsersList from "./components/UsersList";
 import Settings from "./components/Settings/Settings";
 import Login from "./components/Login/Login";
@@ -29,9 +29,11 @@ function App() {
             <Context.Provider value={{role, removeRole}}>
                 <Router>
                     <div className="App">
-                        <Route exact path="/usersList" component={UsersList}/>
-                        <Route path="/settings" component={Settings}/>
-                        <Route path="/" component={Login}/>
+                        <Switch>
+                            <Route exact path="/usersList" component={UsersList}/>
+                            <Route path="/settings" component={Settings}/>
+                            <Route path="/" component={Login}/>
+                        </Switch>
                     </div>
                 </Router>
             </Context.Provider>
